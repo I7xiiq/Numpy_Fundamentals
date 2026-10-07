@@ -27,3 +27,16 @@ print(d[1,1,1])
 
 
 print("#" * 50)
+
+
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
+
+print("#" * 50)
+
+my_cumstom_array = np.array([1,2,3] , ndmin=3)
+print(my_cumstom_array)
+print(my_cumstom_array.ndim)
+print(my_cumstom_array[0,0,0])
