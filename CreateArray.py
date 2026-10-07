@@ -2,7 +2,7 @@ import numpy as np
 
 # 1. Create a standard Python list and convert it to a NumPy array
 my_list = [1, 2, 3, 4, 5]
-my_array = np.array(my_list)
+my_array = np.array([1,2,3,4,5])
 
 print(my_list)
 print(my_array)
